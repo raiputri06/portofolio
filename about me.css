@@ -1,0 +1,1318 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+body{
+    background-size: cover;
+    padding: 0%;
+    margin: 0;
+
+}
+
+html{
+    overflow-x: hidden;
+
+}
+
+.superabout{
+    height: 150vh;
+    background-color: white;
+}
+
+.superhome{
+    background-color: #cccccc;
+    height:125vh;
+}
+.superprestasi{
+    background-color: #ccc;
+}
+.supercontact{
+    background-color: #cccccc;
+    height: 140vh;
+
+}
+.container-navbar{
+
+    overflow: hidden;
+    height: 70px;
+    padding: 10px;
+    top: 0;
+    /* width: 1223px ;  */
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    z-index: 2;
+    justify-content: space-between;
+      
+  }
+ .ul-navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+ }
+
+.li-navbar a{
+    color: black;
+}
+
+
+.navbarkanan{
+    display: flex;
+    /* text-align: right;  */
+    justify-content: space-between;
+    transition: all .5s;
+    
+}
+.navbarkanan a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbarkanan a:hover{
+    text-decoration: underline;
+}
+.navbarkiri{
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 20px;
+    
+}
+.navbarkiri a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    
+    
+}
+.navbarkanan2{
+    display: flex;
+    text-align: right; 
+    
+}
+.navbarkanan2 a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbarkanan2 a:hover{
+    text-decoration: underline;
+}
+.navbarkiri2{
+    text-align: left;
+    margin-right: 500px;
+    color: black;
+    font-size: 25px;
+}
+.navbarkiri2 a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    
+}
+    .portfolio {
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+    .portfolio img {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto; 
+    }
+    
+    
+    .portfolio p {
+        font-weight: bold; 
+    }
+    
+    
+    .kritik-saran {
+        text-align: center; 
+        margin: 20px auto; 
+    }
+    
+    
+    .kritik-saran form {
+        margin-top: 20px; 
+    }
+    
+    
+    label {
+        display: block; 
+        font-weight: bold; 
+        margin-bottom: 5px; 
+    }
+    
+    input[type="text"] {
+        width: 30%; 
+        padding: 10px; 
+        margin-bottom: 10px; 
+    }
+    
+    input[type="submit"] {
+        background-color: #007BFF; 
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none; 
+        cursor: pointer; 
+    }
+
+.home{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    height:80vh;
+    background-position: center;
+    font-size: 50px;
+    font-weight: 700;position: relative;
+
+    
+}
+
+.jdhome{
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'League Spartan', sans-serif;
+}
+.isihome{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin: 90px;
+    text-align: center;
+}
+.hei{
+    margin-bottom: 30px
+}
+.tombol{
+    text-align: center;
+}
+
+.kecek{
+    background-color: #fff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 20px 60px;
+    font-size: 20px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    text-align: center;
+    margin-top:30px ;
+}
+.kecek:hover{
+    transform: translateY(-5px);
+    transition: 0,2s;
+}
+
+.home{
+    color: #fff;
+}
+.jdabout{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.narasiabout{
+    color: black;
+    margin: 20px;
+    padding: 90px;
+    font-size: 17px;
+}
+.aboutt{
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.aboutt img{
+    display: flex;
+    margin: 30px;
+    margin-bottom: 80px;
+    height: 300px;
+    width: 300px;
+    
+}
+.isiabout{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.portfolio{
+    padding: 0px;
+    margin: 0px;
+}
+.jdportofolio{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+  
+}
+.isipres{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.theporto{
+    display: flex;
+    margin: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    color: black;
+}
+.theporto img{
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+}
+.fotoportofolio1 img{
+    width: 400px;
+    height: 400px;
+}
+.jdpres{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+    
+}
+.teks{
+    margin: 0px;
+    margin-top: 200px;
+    font-size: 20px;
+    
+    
+}
+.isiporto{
+  margin: 20px;
+    
+}
+.fotoportofolio{
+    display: flex;
+    
+}
+.teks{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    /* padding-left: 10px; */
+    font-size: 20px;
+   
+}
+.jdcontact{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+.isicontact{
+    display: flex;
+}
+.fotocontact img{
+    width: 250;
+    height: 250;
+
+}
+    
+    .form{
+        color: black;
+        padding-top: 50px;
+        margin-top: 50px;
+        margin-left: 200px;
+        width: 500px;
+        height: 500px;
+        border-radius: 15px;
+        margin-right: 80px;
+        padding-left: 20px;
+    
+    }
+    .formm{
+        padding-left: 20px;
+        margin-left: 20px;
+        width: 400px;
+    }
+.formt{
+        padding-left: 20px;
+        margin-left: 20px;
+        width: 400px;
+        height: 30px;
+    }
+
+.formatas{
+    display: flex;
+    width: 600px;
+    margin-right: 100px;
+}
+
+.formkiri{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.formkanan{
+    margin-right: 100px;
+}
+    .label{
+        width: 50px;
+        padding-left: 20px;
+    }
+    .kecek1{
+        background-color: black;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 10px 50px;
+        font-size: 20px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+        text-align: center;
+        margin-bottom:100px ;
+        margin-left: 550px;
+
+    }
+    .kecek1:hover{
+        transform: translateY(-5px);
+        transition: 0,2s;
+    }
+    
+
+.judulpjr{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+}
+.isipjr1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.thepjr{
+    display: flex;
+}
+
+.fotopjr img{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin: 90px;
+}
+.fotopjr1 img{
+    height: 400px;
+    width: 700px;
+    margin: 20px;
+}
+.isipjr{
+    font-size: 17px;
+    display: flex;
+    color: black; 
+   
+   
+}
+.jdpjr{
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    color: black;
+    
+}
+.pjr{
+    margin: 100px;
+   
+}
+.footer{
+    background-color: black;
+    color: #ffffff;
+}
+
+.footerkanankiri{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.sosmedfooter{
+    display: flex;
+}
+
+.footerkiri{
+    padding-top: 50px ;
+    padding-left: 50px;
+}
+
+.footerkanan{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.jdfooterkiri{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.isifooterkiri{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.jdftkn{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.iconwaf{
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+.iconigf, .iconyt{
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 5px;
+;
+}
+
+.iconf{
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+.garisf{
+    background-color: #ffffff;
+    height: 1px;
+    margin: 0px 50px;
+}
+
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -14px;
+    top: -7px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-toggle span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    transition: all .5s;
+}
+
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(-1px, -1px) ;
+ }
+
+.menu-toggle input:checked ~ span:nth-child(3){
+    opacity: 0;
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(-1px, 0);
+ }
+
+ @media(max-width:400px){
+    .superhome{
+        height: 120vh;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+    .navbarkanan{   
+    position: absolute;
+    right: -200%;
+    top: 70px;
+    width: 50%;
+    height: 50vh;
+    /* justify-self: space-evenly; */
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5; 
+    background-color: #fff;
+    border-radius: 10px;
+   }
+
+   .li-navbar{
+    padding: 0px;
+    margin: 0px;
+   }
+
+   .navbarkanan a {
+    text-align: center;
+    padding-left: 30px;
+   }
+
+   .navbarkanan.slide{
+    right: 0%;
+   }
+
+
+    .header .navbar .ul{
+    flex-direction: column;
+    }
+
+    .header .navbar a{
+    display: block;
+    margin: 1.5rem;
+    padding: 5rem;
+    font-size: 2rem;
+    }
+
+    .jdfooterkiri{
+        font-size: 15px;
+    }
+    .isifooterkiri{
+        font-size: 13px;
+    }
+    .jdftkn{
+        font-size: 15px;
+    }
+    .iconwaf , .iconigf , .iconf ,.iconyt{
+        font-size: 12px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .aboutme{
+        padding-top: 0px;
+    }
+    .jdabout{
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .aboutt{
+        background-color: #ccc;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .aboutt img{
+        height: 270px;
+        width: 250px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin: -0px;
+        padding-left: 20px;
+    }
+    .narasiabout{
+        font-size: 17px;
+        padding: 0px;
+        
+        
+    }
+    .isiportofolio{
+        flex-direction: column;
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .superabout{
+        background-color: #fff;
+    }
+
+    .theporto{
+        flex-direction: column;
+        padding: 0;
+    }
+    .jdportofolio{
+        font-size: 35px;
+       
+    }
+    .fotoportofolio{
+        margin: -110px;
+        margin-top: 20px;
+        flex-direction: column;
+        
+    }
+    .fotoportofolio img{
+        height: 250px;
+        width: 180px;
+        margin-left: 0px;        
+    }
+    .fotoportofolio1{
+        height: 20px;
+        width: 200px;
+        margin: -100px;
+        margin-top: -15px;
+        
+        
+    }
+    .jdpres{
+        font-size: 15px;
+        
+    }
+    .teks{
+        font-size: 12px;
+        
+    }
+    .portfolio{
+        margin-bottom: 180px;
+
+    }
+    .projects{
+        margin-bottom: 150px;
+
+    }
+    .pjr{
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+    
+    }
+    .judulpjr{
+        font-size: 35px;
+        /* margin-top: 30px; */
+    }
+    .isipjr1{
+        font-size: 20px;
+      
+    }
+    .fotopjr img{
+        height: 250px;
+        width: 250px;
+       margin-left: 110px;
+       margin-bottom: 20px;
+        
+    }
+    .fotopjr1 img{
+        height: 250px;
+        width: 270px;
+        margin-left: 100px;
+    }
+    .pjr{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0px;
+        
+    }
+    .thepjr{
+        flex-direction: column;
+        
+    }
+    .jdpjr{
+        font-size: 25px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .isipjr{
+        font-size: 17px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .kecek{
+        margin: 20px;
+        
+    }
+    
+    .formt{
+    width: 390px;
+    height: 70px;
+    }
+
+    .formm{
+    width: 390px;
+    height: 90px;
+    }
+
+    .jdcontact{
+        font-size: 35px;
+    }
+    .fotocontact img{
+        height: 290px;
+        width: 200px;
+        margin: 90px;
+        margin-top: 30px;
+    }
+    .supercontact{
+        height: fit-content;
+    }
+
+    .form{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        height: 350px;
+    }
+    .formkiri{
+        height: 20px;
+        width: 20px;
+    }
+    .formkanan{
+        height: 20px;
+        width: 15px;
+    }
+    .isicontact{
+        flex-direction: column;
+
+    }
+    .kecek1{
+    margin-left: 150px; 
+    margin-top: 0px;
+    }
+    .supercontact{
+        height: 150vh;
+    }
+    .tombols{
+        margin-bottom: 0px;
+        top: 100px;
+    }
+    
+
+}
+
+
+@media(max-width:600px){
+    .superhome{
+        height: 120vh;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+    .navbarkanan{   
+    position: absolute;
+    right: -200%;
+    top: 70px;
+    width: 50%;
+    height: 50vh;
+    /* justify-self: space-evenly; */
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5; 
+    background-color: #fff;
+    border-radius: 10px;
+   }
+
+   .li-navbar{
+    padding: 0px;
+    margin: 0px;
+   }
+
+   .navbarkanan a {
+    text-align: center;
+    padding-left: 30px;
+   }
+
+   .navbarkanan.slide{
+    right: 0%;
+   }
+
+
+    .header .navbar .ul{
+    flex-direction: column;
+    }
+
+    .header .navbar a{
+    display: block;
+    margin: 1.5rem;
+    padding: 5rem;
+    font-size: 2rem;
+    }
+
+    .jdfooterkiri{
+        font-size: 15px;
+    }
+    .isifooterkiri{
+        font-size: 13px;
+    }
+    .jdftkn{
+        font-size: 15px;
+    }
+    .iconwaf , .iconigf , .iconf ,.iconyt{
+        font-size: 12px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .aboutme{
+        padding-top: 0px;
+    }
+    .jdabout{
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .aboutt{
+        background-color: #ccc;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .aboutt img{
+        height: 270px;
+        width: 250px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin: 70px;
+    }
+    .narasiabout{
+        font-size: 17px;
+        padding: 0px;
+        
+        
+    }
+    .isiportofolio{
+        flex-direction: column;
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .superabout{
+        background-color: #fff;
+    }
+
+    .theporto{
+        flex-direction: column;
+        padding: 0;
+    }
+    .jdportofolio{
+        font-size: 35px;
+       
+    }
+    .fotoportofolio{
+        margin: -110px;
+        margin-top: 20px;
+        flex-direction: column;
+        
+    }
+    .fotoportofolio img{
+        height: 250px;
+        width: 180px;
+        margin-left: 50px;
+        
+        
+    }
+    .fotoportofolio1{
+        height: 20px;
+        width: 200px;
+        margin: -100px;
+        margin-top: -15px;
+        
+        
+    }
+    .jdpres{
+        font-size: 15px;
+        
+    }
+    .teks{
+        font-size: 12px;
+        
+    }
+    .portfolio{
+        margin-bottom: 180px;
+
+    }
+    .projects{
+        margin-bottom: 150px;
+
+    }
+    .pjr{
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+    
+    }
+    .judulpjr{
+        font-size: 35px;
+        /* margin-top: 30px; */
+    }
+    .isipjr1{
+        font-size: 20px;
+      
+    }
+    .fotopjr img{
+        height: 250px;
+        width: 250px;
+       margin-left: 110px;
+       margin-bottom: 20px;
+        
+    }
+    .fotopjr1 img{
+        height: 250px;
+        width: 270px;
+        margin-left: 100px;
+    }
+    .pjr{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0px;
+        
+    }
+    .thepjr{
+        flex-direction: column;
+        
+    }
+    .jdpjr{
+        font-size: 25px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .isipjr{
+        font-size: 17px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .kecek{
+        margin: 20px;
+        
+    }
+    
+    .formt{
+    width: 390px;
+    height: 70px;
+    }
+
+    .formm{
+    width: 390px;
+    height: 90px;
+    }
+
+    .jdcontact{
+        font-size: 35px;
+    }
+    .fotocontact img{
+        height: 290px;
+        width: 200px;
+        margin: 90px;
+        margin-top: 30px;
+    }
+    .supercontact{
+        height: fit-content;
+    }
+
+    .form{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        height: 350px;
+    }
+    .formkiri{
+        height: 20px;
+        width: 20px;
+    }
+    .formkanan{
+        height: 20px;
+        width: 15px;
+    }
+    .isicontact{
+        flex-direction: column;
+
+    }
+    .kecek1{
+    margin-left: 150px; 
+    margin-top: 0px;
+    }
+    .supercontact{
+        height: 150vh;
+    }
+    .tombols{
+        margin-bottom: 0px;
+        top: 100px;
+    }
+    
+
+}
+
+    
+
+@media(max-width:800px){
+    .superhome{
+        height: 10vh;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+    .navbarkanan{   
+    position: absolute;
+    right: -200%;
+    top: 70px;
+    width: 50%;
+    height: 50vh;
+    /* justify-self: space-evenly; */
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    /* z-index: -1;  */
+    background-color: #fff;
+    border-radius: 10px;
+   }
+
+   .li-navbar{
+    padding: 0px;
+    margin: 0px;
+   }
+
+   .navbarkanan a {
+    text-align: center;
+    padding-left: 30px;
+   }
+
+   .navbarkanan.slide{
+    right: 0%;
+   }
+
+
+    .header .navbar .ul{
+    flex-direction: column;
+    }
+
+    .header .navbar a{
+    display: block;
+    margin: 1.5rem;
+    padding: 5rem;
+    font-size: 2rem;
+    }
+
+    .jdfooterkiri{
+        font-size: 15px;
+    }
+    .isifooterkiri{
+        font-size: 13px;
+    }
+    .jdftkn{
+        font-size: 15px;
+    }
+    .iconwaf , .iconigf , .iconf ,.iconyt{
+        font-size: 12px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .aboutme{
+        padding-top: 0px;
+    }
+    .jdabout{
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .aboutt{
+        background-color: #ccc;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .aboutt img{
+        height: 270px;
+        width: 250px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin: 70px;
+    }
+    .narasiabout{
+        font-size: 17px;
+        padding: 0px;
+        
+    }
+   
+    .isiportofolio{
+        flex-direction: column;
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .superabout{
+        background-color: #fff;
+    }
+
+    .theporto{
+        flex-direction: column;
+        padding: 0;
+    }
+    .jdportofolio{
+        font-size: 35px;
+       
+    }
+    .fotoportofolio{
+        margin: -110px;
+        margin-top: 20px;
+        flex-direction: column;
+        
+    }
+    .fotoportofolio img{
+        height: 250px;
+        width: 180px;
+        margin-left: 50px;
+        
+        
+    }
+    .fotoportofolio1{
+        height: 20px;
+        width: 200px;
+        margin: -100px;
+        margin-top: -15px;
+        
+        
+    }
+    .jdpres{
+        font-size: 15px;
+        
+    }
+    .teks{
+        font-size: 12px;
+        
+    }
+    .portfolio{
+        margin-bottom: 180px;
+
+    }
+    .projects{
+        margin-bottom: 150px;
+
+    }
+    .pjr{
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+    
+    }
+    .judulpjr{
+        font-size: 35px;
+        /* margin-top: 30px; */
+    }
+    .isipjr1{
+        font-size: 20px;
+      
+    }
+    .fotopjr img{
+        height: 250px;
+        width: 250px;
+       margin-left: 110px;
+       margin-bottom: 20px;
+        
+    }
+    .fotopjr1 img{
+        height: 250px;
+        width: 270px;
+        margin-left: 100px;
+    }
+    .pjr{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0px;
+        
+    }
+    .thepjr{
+        flex-direction: column;
+        
+    }
+    .jdpjr{
+        font-size: 25px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .isipjr{
+        font-size: 17px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .kecek{
+        margin: 20px;
+        
+    }
+    
+    .formt{
+    width: 390px;
+    height: 70px;
+    }
+    .formm{
+    width: 390px;
+    height: 90px;
+    }
+    .jdcontact{
+        font-size: 35px;
+    }
+    .fotocontact img{
+        height: 290px;
+        width: 200px;
+        margin: 90px;
+        margin-top: 30px;
+    }
+    .supercontact{
+        height: fit-content;
+    }
+
+    .form{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        height: 350px;
+    }
+    .formkiri{
+        height: 20px;
+        width: 20px;
+    }
+    .formkanan{
+        height: 20px;
+        width: 15px;
+    }
+    .isicontact{
+        flex-direction: column;
+
+    }
+    .kecek1{
+    margin-left: 150px; 
+    margin-top: 0px;
+    }
+    .supercontact{
+        height: 150vh;
+    }
+    .tombols{
+        margin-bottom: 0px;
+        top: 100px;
+    }
+    
+    
+    
+
+}
